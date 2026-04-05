@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ Accordion Component</title>
+  <link rel="stylesheet" href="faq-accordion.css" />
+</head>
+<body>
+  <section class="faq-container">
+    <div class="faq-header">
+      <h2>Frequently Asked Questions</h2>
+      <p>Find answers to common questions about our services</p>
+    </div>
+
+    <div class="faq-list">
+      <!-- FAQ Item 1 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>What are your business hours?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>We are open Monday to Friday from 9:00 AM to 6:00 PM EST. For emergency support, please contact us via email anytime.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 2 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Do you offer refunds?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes, we offer a 30-day money-back guarantee on all purchases. If you're not satisfied, contact our support team for a full refund.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 3 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>How can I track my order?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Once your order ships, you'll receive a tracking number via email. You can use this number to track your package on our shipping partner's website.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 4 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Is my payment information secure?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes, we use industry-standard SSL encryption and PCI DSS compliance to protect your payment information. Your data is never stored on our servers.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 5 -->
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Can I cancel my subscription anytime?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Absolutely! You can cancel your subscription anytime from your account settings. Your access will continue until the end of your billing period.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Validation UI Practice (No backend) -->
+  <section class="faq-validation-section">
+    <h3>Quick Validation Demo</h3>
+    <p>Basic form structure + client-side validation UI only.</p>
+    <form id="faqValidationForm" class="faq-validation-form" novalidate>
+      <div class="field-group">
+        <label for="userName">Name</label>
+        <input type="text" id="userName" name="userName" placeholder="Your name" required />
+        <div class="feedback" id="nameFeedback"></div>
+      </div>
+
+      <div class="field-group">
+        <label for="userEmail">Email</label>
+        <input type="email" id="userEmail" name="userEmail" placeholder="you@example.com" required />
+        <div class="feedback" id="emailFeedback"></div>
+      </div>
+
+      <button type="submit" class="faq-submit-btn">Send</button>
+      <div class="submit-feedback" id="submitFeedback"></div>
+    </form>
+  </section>
+
+  <script src="faq-accordion.js"></script>
+</body>
+</html>
