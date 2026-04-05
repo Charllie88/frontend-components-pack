@@ -1,0 +1,104 @@
+:root {
+  --hero-bg: #e2e8f0;
+  --hero-text: #0f172a;
+  --hero-accent: #2563eb;
+  --hero-accent-dark: #1d4ed8;
+  --hero-radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--hero-text);
+  background: #fff;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  align-items: center;
+  padding: 3rem 2rem;
+  background: var(--hero-bg);
+  min-height: calc(100vh - 72px);
+}
+
+.hero-content {
+  max-width: 580px;
+}
+
+.hero h1 {
+  font-size: clamp(1.9rem, 4vw, 3.5rem);
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  color: #334155;
+}
+
+.hero-actions {
+  display: grid;
+  gap: 
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: -moz-inline-grid;
+  align-items: right;
+  justify-content: top;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.btn-primary {
+  background: var(--hero-accent);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: var(--hero-accent-dark);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--hero-text);
+  border-color: #94a3b8;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  color: var(--hero-accent);
+  border-color: var(--hero-accent);
+}
+
+.hero-image {
+  height: 300px;
+  border-radius: var(--hero-radius);
+  background: linear-gradient(135deg, #a5b4fc 0%, #fda4af 100%);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.2);
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 2.25rem 1rem;
+  }
+
+  .hero-image {
+    margin: 0 auto;
+    width: min(520px, 90%);
+  }
+}
