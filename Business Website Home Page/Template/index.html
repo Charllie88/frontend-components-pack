@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Template Pack</title>
+  <meta name="description" content="Reusable business website template featuring hero, pricing, FAQ accordion, and testimonials.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="#hero">Northstar</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="nav-cta">Book Call</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Business Template</p>
+          <h1>Launch a sharp service brand with a clean conversion-first layout.</h1>
+          <p class="hero-text">This reusable template gives you a polished hero, pricing, FAQ accordion, and testimonial system that can drop into most agency, consulting, or SaaS websites with minimal edits.</p>
+          <div class="hero-actions">
+            <a href="#pricing" class="btn btn-primary">View Pricing</a>
+            <a href="#faq" class="btn btn-secondary">Explore FAQ</a>
+          </div>
+          <ul class="hero-points">
+            <li>Built for service businesses</li>
+            <li>Responsive out of the box</li>
+            <li>Fast to customize and ship</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-card visual-main">
+            <span class="visual-label">Revenue Growth</span>
+            <strong>+38%</strong>
+            <p>Average client lift after rollout</p>
+          </div>
+          <div class="visual-card visual-side">
+            <span class="visual-label">Delivery Window</span>
+            <strong>14 days</strong>
+            <p>For a branded first version</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing section-block">
+      <div class="container section-heading">
+        <p class="eyebrow">Pricing Section</p>
+        <h2>Simple tiers that explain value quickly.</h2>
+        <p>Structured blocks with clear differentiation make it easier for visitors to compare options and move toward a decision.</p>
+      </div>
+      <div class="container pricing-grid">
+        <article class="pricing-card">
+          <p class="plan-name">Starter</p>
+          <div class="price-row">
+            <span class="currency">$</span>
+            <span class="price">799</span>
+            <span class="term">/project</span>
+          </div>
+          <p class="plan-copy">For solo consultants and new businesses that need a credible online presence fast.</p>
+          <ul class="feature-list">
+            <li>Single-page layout</li>
+            <li>Hero and CTA setup</li>
+            <li>Basic content formatting</li>
+            <li>Mobile responsiveness</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-full">Choose Starter</a>
+        </article>
+
+        <article class="pricing-card featured">
+          <p class="badge">Best Value</p>
+          <p class="plan-name">Growth</p>
+          <div class="price-row">
+            <span class="currency">$</span>
+            <span class="price">1,499</span>
+            <span class="term">/project</span>
+          </div>
+          <p class="plan-copy">For growing service teams that need stronger positioning, trust signals, and conversion paths.</p>
+          <ul class="feature-list">
+            <li>Full landing page system</li>
+            <li>Pricing and FAQ modules</li>
+            <li>Testimonials and CTA polish</li>
+            <li>Copy-ready content structure</li>
+            <li>Launch support</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-full">Choose Growth</a>
+        </article>
+
+        <article class="pricing-card">
+          <p class="plan-name">Premium</p>
+          <div class="price-row">
+            <span class="currency">$</span>
+            <span class="price">2,400</span>
+            <span class="term">/project</span>
+          </div>
+          <p class="plan-copy">For brands that want a higher-end presentation, stronger messaging, and more launch support.</p>
+          <ul class="feature-list">
+            <li>Expanded page customization</li>
+            <li>Priority revisions</li>
+            <li>Advanced layout polish</li>
+            <li>Strategic content guidance</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-full">Choose Premium</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq" class="faq section-block alt-surface">
+      <div class="container section-heading compact">
+        <p class="eyebrow">FAQ Accordion</p>
+        <h2>Questions answered without forcing users to leave the page.</h2>
+      </div>
+      <div class="container faq-list">
+        <article class="faq-item active">
+          <button class="faq-trigger" type="button" aria-expanded="true">
+            <span>Who is this template best suited for?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-panel">
+            <p>It works best for consultants, agencies, coaches, and small service-led businesses that need a clear, trustworthy online presentation with strong conversion sections.</p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            <span>Can I reuse these sections in a different brand style?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-panel">
+            <p>Yes. The package uses a small set of CSS variables, so updating colors, radius, type scale, and spacing is straightforward.</p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            <span>Does the accordion work on mobile too?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-panel">
+            <p>Yes. The interaction is built with plain JavaScript and the layout collapses cleanly at smaller breakpoints.</p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-trigger" type="button" aria-expanded="false">
+            <span>What should I customize first?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-panel">
+            <p>Start with the hero headline, CTA copy, pricing details, and testimonial text. Those four areas usually drive most of the perception and conversion impact.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section-block">
+      <div class="container section-heading">
+        <p class="eyebrow">Testimonials Section</p>
+        <h2>Social proof that feels concrete, not generic.</h2>
+        <p>These cards are structured for quick scanning and work well for agencies, consultants, and premium service offers.</p>
+      </div>
+      <div class="container testimonial-grid">
+        <article class="testimonial-card">
+          <p class="quote">“We went from an outdated placeholder site to a page that actually explained our offer clearly. Leads improved within the first month.”</p>
+          <div class="person-row">
+            <div class="avatar">AL</div>
+            <div>
+              <strong>Alya M.</strong>
+              <span>Operations Consultant</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card emphasis">
+          <p class="quote">“The structure did most of the heavy lifting. Pricing, objections, and proof all landed in the right order, which made the page sell far better.”</p>
+          <div class="person-row">
+            <div class="avatar">TR</div>
+            <div>
+              <strong>Tom R.</strong>
+              <span>Studio Founder</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="quote">“It was easy to brand, easy to expand, and felt much more premium than a basic starter template.”</p>
+          <div class="person-row">
+            <div class="avatar">SK</div>
+            <div>
+              <strong>Sana K.</strong>
+              <span>Growth Advisor</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="template-cta">
+      <div class="container template-cta-shell">
+        <div>
+          <p class="eyebrow light">Packaged Cleanly</p>
+          <h2>Use this as a standalone template or fold the sections into a larger site.</h2>
+        </div>
+        <a href="#hero" class="btn btn-light">Back to Top</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
