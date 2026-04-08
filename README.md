@@ -1,21 +1,13 @@
-# Frontend UI Collection
+# Frontend Components Pack
 
-This workspace contains multiple frontend projects and UI practice components.
+This repository now centers on three complete static website projects built with HTML, CSS, and JavaScript.
 
-## Repository ideas
+## Projects
 
-- `frontend-components-pack`
-- `frontend-bugfix-practice`
-- `responsive-ui-examples`
-
-## Top-level folders
-
-- `bug-fix-practice/` - small UI bug-fix challenge folders
-- `components-pack/` - reusable UI component examples
-- `business-site-1/` - full business landing site example
-- `landing-page-1/` - landing page example
-- `landing-page-2/` - landing page example
-- `portfolio-site/` - portfolio site example
+- `Business Website Home Page/` - a multi-page business website with home, services, and contact pages.
+- `Business Website Home Page/Template/` - a standalone packaged section template with hero, pricing, FAQ, testimonials, and CTA.
+- `Landing Page/` - a standalone landing page project.
+- `Local Business Promo Landing Page/` - a standalone local business promo landing page.
 
 ## Usage
 
@@ -23,4 +15,4 @@ Open any folder and launch its `index.html` file in a browser to preview the pro
 
 ## Notes
 
-This repository is organized for frontend practice, responsive layout demos, and bug-fix exercises.
+Legacy practice folders and outdated root demo files have been removed to keep the repository focused on the current shipped sites.
